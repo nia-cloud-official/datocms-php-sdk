@@ -1,0 +1,13 @@
+{
+    "name": "nia-cloud-official/datocms-php-sdk",
+    "description": "PHP SDK for DatoCMS",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DatoCMS\\": "src/"
+        }
+    }
+}
