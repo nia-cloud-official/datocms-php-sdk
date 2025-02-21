@@ -288,7 +288,7 @@ $client->query($mutation, [
 ## 9. Support <a name="support"></a>
 
 **Need Help?**  
-Contact: [miltonvafana@gmail.com](mailto:miltonvafana@gmail.com)
+Contact: [miltonhyndrex@gmail.com](mailto:miltonhyndrex@gmail.com)
 
 **Official Resources**:
 - [DatoCMS Docs](https://www.datocms.com/docs)
