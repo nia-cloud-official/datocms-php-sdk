@@ -173,14 +173,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Need Help?**  
 Email: [miltonvafana@gmail.com](mailto:miltonvafana@gmail.com)  
 **Official Docs**: [DatoCMS Documentation](https://www.datocms.com/docs)
-
-```
-
-This README:
-1. Provides clear installation/usage instructions
-2. Includes copy-paste examples
-3. Uses emojis for visual scanning
-4. Has troubleshooting section
-5. Follows standard open-source format
-6. Links to support resources
-
