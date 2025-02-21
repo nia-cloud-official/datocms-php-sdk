@@ -173,8 +173,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Need Help?**  
 Email: [miltonhyndrex@gmail.com](mailto:miltonhyndrex@gmail.com)  
 **Official Docs**: [DatoCMS Documentation](https://www.datocms.com/docs)
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 0842fbab500b0939048c88a628b0c9072aed75a6
