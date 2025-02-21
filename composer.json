@@ -1,6 +1,8 @@
 {
     "name": "nia-cloud-official/datocms-php-sdk",
-    "description": "PHP SDK for DatoCMS",
+    "description": "PHP SDK for DatoCMS integration",
+    "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^7.4|^8.0",
         "guzzlehttp/guzzle": "^7.0"
@@ -9,5 +11,19 @@
         "psr-4": {
             "DatoCMS\\": "src/"
         }
+    },
+    "authors": [
+        {
+            "name": "Milton Vafana",
+            "email": "miltonhyndrex@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["datocms", "cms", "api", "sdk", "php"],
+    "homepage": "https://github.com/nia-cloud-official/datocms-php-sdk",
+    "support": {
+        "email": "miltonhyndrex@gmail.com",
+        "issues": "https://github.com/nia-cloud-official/datocms-php-sdk/issues",
+        "source": "https://github.com/nia-cloud-official/datocms-php-sdk"
     }
 }
