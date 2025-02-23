@@ -33,12 +33,7 @@ A PHP client for interacting with DatoCMS's GraphQL API. Perfect for building PH
    composer require nia-cloud-official/datocms-php-sdk
    ```
 
-2. **Create `.env` file**:
-   ```env
-   DATOCMS_API_TOKEN=your_api_token_here
-   ```
-
-3. **Get API token**:
+2. **Get API token**:
    - Go to DatoCMS → Settings → API Tokens
    - Copy **Read-only API token**
 
@@ -52,7 +47,7 @@ require 'vendor/autoload.php';
 
 use DatoCMS\Client;
 
-$client = new Client(getenv('DATOCMS_API_TOKEN'));
+$client = new Client('DATOCMS_API_TOKEN');
 
 try {
     // Get all blog posts
