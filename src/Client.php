@@ -35,12 +35,15 @@ class Client
     public function query(string $query, array $variables = []): array
     {
         try {
-            $response = $this->httpClient->post('', [
-                'json' => [
-                    'query' => $query,
-                    'variables' => $variables
-                ]
-            ]);
+        // Cast empty arrays to objects, keep non-empty as-is
+        $variablesForJson = empty($variables) ? new \stdClass() : $variables;
+
+        $response = $this->httpClient->post('', [
+            'json' => [
+                'query' => $query,
+                'variables' => $variablesForJson 
+            ]
+        ]);
 
             $data = json_decode($response->getBody()->getContents(), true);
 

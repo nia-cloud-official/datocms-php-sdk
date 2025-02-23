@@ -1,32 +1,23 @@
-<?php
-
-require __DIR__ . '/vendor/autoload.php';
+<?php 
+require 'vendor/autoload.php';
 
 use DatoCMS\Client;
-use DatoCMS\Exceptions\ApiException;
 
-$client = new Client(getenv('DATOCMS_TOKEN'), [
-    'timeout' => 15,
-    'max_retries' => 5
-]);
+$client = new Client('33246cac4351504945429041134759'); 
 
 try {
-    // Get paginated posts
     $result = $client->query('
         query {
-            allPosts(first: 10) {
-                id
-                title
-                content
+            allProducts {
+                    title
+                    description
+                    price
             }
         }
-    ');
-    
-    // Upload file
-    $asset = $client->uploadFile('/path/to/image.jpg');
-    
+    ', []);
+
     print_r($result);
     
-} catch (ApiException $e) {
+} catch (Exception $e) {
     die("Error: " . $e->getMessage());
 }
