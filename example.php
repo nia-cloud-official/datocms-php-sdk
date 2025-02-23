@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 use DatoCMS\Client;
 
-$client = new Client('33246cac4351504945429041134759'); 
+$client = new Client('DATOCMS_API_KEY'); 
 
 try {
     $result = $client->query('

@@ -91,7 +91,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 // Initialize client
-$client = new Client($_ENV['DATOCMS_API_TOKEN']);
+$client = new Client('DATOCMS_API_TOKEN');
 ```
 
 ---
